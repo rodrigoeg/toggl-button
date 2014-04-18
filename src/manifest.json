@@ -27,6 +27,8 @@
     "*://*.worksection.com/*",
     "*://*.basecamp.com/*",
     "*://*.atlassian.net/*",
+    "*://*/browse/*",
+    "*://*/*/RapidBoard*",
     "*://*.producteev.com/*",
     "*://*.bitbucket.org/*"
   ],
@@ -51,6 +53,8 @@
         "*://*.worksection.com/*",
         "*://*.basecamp.com/*",
         "*://*.atlassian.net/*",
+        "*://*/browse/*",
+        "*://*/*/RapidBoard*",
         "*://*.producteev.com/*"
       ],
       "css": ["styles/style.css"],
@@ -113,7 +117,11 @@
       "js": ["scripts/content/basecamp.js"]
     },
     {
-      "matches": ["*://*.atlassian.net/*"],
+      "matches": [
+        "*://*.atlassian.net/*",
+        "*://*/browse/*",
+        "*://*/*/RapidBoard*"
+      ],
       "js": ["scripts/content/jira.js"]
     }
   ]
