@@ -73,10 +73,10 @@
       return;
     }
 
-    numElem = $('.issue-link');
+    numElem = $('#key-val');
     title = titleElem.textContent;
     if (numElem !== null) {
-      title = numElem.getAttribute('data-issue-key') + " " + title;
+      title = numElem.textContent + " " + title;
     }
 
     wrapUl = createTag('ul', 'toggl toolbar-group');
